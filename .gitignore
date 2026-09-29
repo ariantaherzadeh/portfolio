@@ -1,2 +1,27 @@
+# macOS
 .DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Netlify local state
 .netlify/
+
+# Claude Code personal settings (launch.json stays tracked)
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+
+# In case tooling is added later
+node_modules/
+*.log
